@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  FoodTracker
+//  TableView
 //
 //  Created by Cindy Royal on 4/27/19.
 //  Copyright © 2019 Cindy Royal. All rights reserved.
