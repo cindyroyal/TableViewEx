@@ -22,13 +22,14 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        if (newsItems[indexPath.row] == "News 1") {
+       let selection = newsItems[indexPath.row]
+        if (selection == "News 1") {
             performSegue(withIdentifier: "News1Segue", sender: self)
         }
-        if (newsItems[indexPath.row] == "News 2") {
+        else if (selection == "News 2") {
             performSegue(withIdentifier: "News2Segue", sender: self)
         }
-        if (newsItems[indexPath.row] == "News 3") {
+        else if (selection == "News 3") {
             performSegue(withIdentifier: "News3Segue", sender: self)
         }
     }
